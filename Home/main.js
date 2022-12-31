@@ -1,10 +1,3 @@
-/* ===================================================================
-    
-    Author          : Valid Theme
-    Template Name   : Healdi - Medical & Health Template
-    Version         : 1.0
-    
-* ================================================================= */
 
 (function($) {
     "use strict";
@@ -12,29 +5,21 @@
     $(document).on('ready', function() {
 
 
-        /* ==================================================
-            # Wow Init
-         ===============================================*/
+      
         var wow = new WOW({
-            boxClass: 'wow', // animated element css class (default is wow)
-            animateClass: 'animated', // animation css class (default is animated)
-            offset: 0, // distance to the element when triggering the animation (default is 0)
-            mobile: true, // trigger animations on mobile devices (default is true)
-            live: true // act on asynchronously loaded content (default is true)
+            boxClass: 'wow', 
+            animateClass: 'animated',
+            offset: 0, 
+            mobile: true, 
+            live: true 
         });
         wow.init();
         
 
-        /* ==================================================
-            # Tooltip Init
-        ===============================================*/
         $('[data-toggle="tooltip"]').tooltip(); 
         
 
 
-        /* ==================================================
-            # Smooth Scroll
-         ===============================================*/
         $("body").scrollspy({
             target: ".navbar-collapse",
             offset: 200
@@ -48,10 +33,6 @@
             event.preventDefault();
         });
 
-
-        /* ==================================================
-            # Banner Animation
-        ===============================================*/
         function doAnimations(elems) {
             //Cache the animationend event in a variable
             var animEndEv = 'webkitAnimationEnd animationend';
@@ -77,12 +58,9 @@
             doAnimations($animatingElems);
         });
 
-        /* ==================================================
-            # imagesLoaded active
-        ===============================================*/
+        
         $('#portfolio-grid,.blog-masonry').imagesLoaded(function() {
 
-            /* Filter menu */
             $('.mix-item-menu').on('click', 'button', function() {
                 var filterValue = $(this).attr('data-filter');
                 $grid.isotope({
@@ -90,14 +68,12 @@
                 });
             });
 
-            /* filter menu active class  */
             $('.mix-item-menu button').on('click', function(event) {
                 $(this).siblings('.active').removeClass('active');
                 $(this).addClass('active');
                 event.preventDefault();
             });
 
-            /* Filter active */
             var $grid = $('#portfolio-grid').isotope({
                 itemSelector: '.pf-item',
                 percentPosition: true,
@@ -106,7 +82,6 @@
                 }
             });
 
-            /* Filter active */
             $('.blog-masonry').isotope({
                 itemSelector: '.blog-item',
                 percentPosition: true,
@@ -118,9 +93,7 @@
         });
 
 
-         /* ==================================================
-            # Fun Factor Init
-        ===============================================*/
+        
         $('.timer').countTo();
         $('.fun-fact').appear(function() {
             $('.timer').countTo();
@@ -129,12 +102,10 @@
         });
 
 
-        /* ==================================================
-            # Magnific popup init
-         ===============================================*/
+       
         $(".popup-link").magnificPopup({
             type: 'image',
-            // other options
+            
         });
 
         $(".popup-gallery").magnificPopup({
@@ -142,7 +113,7 @@
             gallery: {
                 enabled: true
             },
-            // other options
+           
         });
 
         $(".popup-youtube, .popup-vimeo, .popup-gmaps").magnificPopup({
@@ -193,9 +164,7 @@
         });
 
 
-        /* ==================================================
-            # Doctor Carousel
-         ===============================================*/
+        
         $('.doctors-carousel').owlCarousel({
             loop: false,
             nav: false,
@@ -210,9 +179,7 @@
         });
 
 
-        /* ==================================================
-            # Tips Carousel
-         ===============================================*/
+       
         $('.tips-carousel').owlCarousel({
             loop: false,
             nav: false,
@@ -227,9 +194,7 @@
         });
 
 
-        /* ==================================================
-            # Department Carousel
-         ===============================================*/
+        
         $('.department-carousel').owlCarousel({
             loop: false,
             margin: 30,
@@ -254,9 +219,7 @@
         });
 
 
-        /* ==================================================
-            # Testimonials Carousel
-         ===============================================*/
+       
         $('.testimonials-carousel').owlCarousel({
             loop: true,
             nav: false,
@@ -277,25 +240,18 @@
         });
 
 
-        /* ==================================================
-            Preloader Init
-         ===============================================*/
+       
         $(window).on('load', function() {
-            // Animate loader off screen
             $(".se-pre-con").fadeOut("slow");;
         });
 
 
-        /* ==================================================
-            Nice Select Init
-         ===============================================*/
+        
         $('select').niceSelect();
 
 
 
-        /* ==================================================
-            Contact Form Validations
-        ================================================== */
+      
         $('.contact-form').each(function() {
             var formInstance = $(this);
             formInstance.submit(function() {
@@ -329,5 +285,5 @@
             });
         });
 
-    }); // end document ready function
-})(jQuery); // End jQuery
+    }); 
+})(jQuery);

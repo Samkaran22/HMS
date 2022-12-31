@@ -8,3 +8,4 @@ if(isset($_POST['submit'])){
         echo "Name should be more than 8 characters";
     }
 }
+
