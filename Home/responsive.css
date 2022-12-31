@@ -1,12 +1,7 @@
-/*================================ 
-    #RESPONSIVE CSS 
-====================================*/
 
-/* Tablet Layout: 768px.*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
 
-    /* Topbar */
     .top-bar-area .item-flex {
       justify-content: center;
     }
@@ -25,7 +20,7 @@
     }
   
   
-    /* Banner */
+    
   
     body, .banner-area, .banner-area div {
       height: auto;
@@ -53,7 +48,6 @@
     }
   
   
-    /* Top Entry Area */
     .top-entry-area .single-item {
       margin-bottom: 50px;
     }
@@ -63,7 +57,6 @@
     }
   
   
-    /* About */
     .about-area .thumb-box {
       padding-right: 0;
     }
@@ -80,7 +73,6 @@
       margin-bottom: 30px;
     }
   
-    /* Consultation */
     .consultation-area .process {
       padding-right: 15px;
     }
@@ -95,7 +87,6 @@
     }
   
   
-    /* Departments */
   
     .departments-area .departments-tabs .nav-tabs {
       margin: 0 -15px;
@@ -115,12 +106,10 @@
       margin-bottom: 30px;
     }
   
-    /* Department Single */
     .department-single-area .sidebar {
       margin-top: 50px;
     }
   
-    /* Choose Us */
   
     .choose-us-area {
       max-width: 720px;
@@ -165,7 +154,6 @@
     }
   
   
-    /* Facilities */
   
     .facilites-area {
       padding-top: 120px;
@@ -206,7 +194,6 @@
     }
   
   
-    /* Doctors Area */
     .doctors-area .nav-tabs {
       margin: -7px;
       margin-bottom: 40px;
@@ -230,7 +217,6 @@
       margin-left: -15px;
     }
   
-    /* Testimonials */
   
     .testimonials-area {
       position: relative;
@@ -263,7 +249,6 @@
       text-align: center;
     }
   
-    /* Contact */
     .contact-us-area .contact-items .address-box {
       min-height: 400px;
     }
@@ -284,13 +269,11 @@
     }
   
   
-    /* Features */
     .features-area.half-bg::after {
       height: 40%;
     }
   
   
-    /* Fun Factor */
     .fun-factor-area .item {
       margin-top: 50px;
     }
@@ -300,7 +283,6 @@
       margin-top: 0;
     }
   
-    /* Health Tips */
     .health-tips-area .thumb-box {
       margin: 0;
       margin-top: 50px;
@@ -330,7 +312,6 @@
     }
   
   
-    /* Features Entry */
   
     .feature-entry-area.cols-3 .item ul {
       display: inline-block;
@@ -340,14 +321,12 @@
       margin-right: 50px;
     }
   
-    /* Portfolio */
     .gallery-area .gallery-items.colums-2 .pf-item,
     .gallery-area .gallery-items.colums-3 .pf-item,
     .gallery-area .gallery-items.colums-4 .pf-item {
       width: 50%;
     }
   
-    /* Blog */
     .blog-area.left-sidebar .blog-content {
       float: none;
     }
@@ -378,7 +357,6 @@
       width: 100%;
     }
   
-    /* Footer */
   
     footer .footer-bottom {
       text-align: center;
@@ -390,10 +368,8 @@
     }
   }
   
-  /* Mobile Layout: 320px. */
   @media only screen and (max-width: 767px) {
   
-    /* Heading */
     h1 {
       font-size: 30px;
     }
@@ -517,7 +493,6 @@
     }
   
   
-    /* Topbar */
     .top-bar-area {
       display: none;
     }
@@ -535,7 +510,6 @@
       width: 320px;
     }
   
-    /* Banner Area */
   
     .banner-area {
       text-align: center;
@@ -601,7 +575,6 @@
     }
   
   
-    /* Top Entry */
     .top-entry-area .single-item .item {
       padding: 0 !important;
     }
@@ -622,7 +595,6 @@
       margin-bottom: 0;
     }
   
-    /* About */
     .about-area .thumb-box {
       position: relative;
       padding-right: 0;
@@ -679,7 +651,6 @@
     }
   
   
-    /* Department */
     .department-area .shape-bottom {
       display: none;
     }
@@ -702,7 +673,6 @@
       margin-bottom: 30px;
     }
   
-    /* Department Single */
     .department-single-area .info .thumb .title {
       position: inherit;
       padding: 0;
@@ -735,7 +705,6 @@
     }
   
   
-    /* Consultation Process */
     .consultation-area .process {
       padding-right: 15px;
       text-align: center;
@@ -754,7 +723,6 @@
     }
   
   
-    /* Choose Us */
   
     .choose-us-area {
       max-width: 540px;
@@ -804,7 +772,6 @@
     }
   
   
-    /* Facilities */
   
     .facilites-area {
       padding-top: 50px;
@@ -845,7 +812,6 @@
     }
   
   
-    /* Fun Factor */
     .fun-factor-area .item {
       margin-top: 50px;
     }
@@ -854,7 +820,6 @@
       margin-top: 0;
     }
   
-    /* Doctors Area */
     .doctors-area .nav-tabs {
       margin-right: 0;
       margin-bottom: 30px;
@@ -872,12 +837,10 @@
       margin-left: -15px;
     }
   
-    /* Features */
     .features-area.half-bg::after {
       height: 40%;
     }
   
-    /* Features Entry */
   
     .feature-entry-area.cols-3 .item ul {
       display: inline-block;
@@ -888,7 +851,6 @@
     }
   
   
-    /* Health Tips */
     .health-tips-area .thumb-box {
       margin: 0;
       margin-top: 30px;
@@ -918,7 +880,6 @@
     }
   
   
-    /* Testimonials */
   
     .testimonials-area {
       position: relative;
@@ -952,7 +913,6 @@
     }
   
   
-    /* Portfolio */
   
     .gallery-area .gallery-items.colums-2 .pf-item,
     .gallery-area .gallery-items.colums-3 .pf-item,
@@ -973,7 +933,6 @@
       margin-bottom: 10px;
     }
   
-    /* Blog */
   
     .blog-area .blog-thin-colums .thumb {
       margin-bottom: 30px;
@@ -1100,13 +1059,11 @@
     }
   
   
-    /* Subscribe */
     .subscribe-area .subscribe-items {
       padding: 50px 30px;
     }
   
   
-    /* Contact */
     .contact-us-area .contact-items .address-box {
       min-height: 400px;
     }
@@ -1146,7 +1103,6 @@
     }
   
   
-    /* 404 */
   
     .error-page-area .error-box h1 {
       font-size: 100px;
@@ -1159,7 +1115,6 @@
     }
   
   
-    /* Footer */
   
     footer .f-items.default-padding {
       padding-top: 0;
@@ -1179,7 +1134,6 @@
   
   
   
-  /* Wide Mobile Layout: 480px. */
   @media only screen and (min-width: 480px) and (max-width: 767px) {
   
   
@@ -1188,7 +1142,6 @@
       width: 400px;
     }
   
-    /* Blog */
     .comments-list .commen-item .content, 
     .comments-list .commen-item .avatar {
       display: table-cell;

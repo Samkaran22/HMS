@@ -1,7 +1,4 @@
-  /*
-    Flaticon icon font: Flaticon
-    Creation date: 08/09/2018 00:19
-    */
+ 
 
     @font-face {
         font-family: "Flaticon";
@@ -31,7 +28,6 @@
         text-transform: none;
         line-height: 1;
       
-        /* Better Font Rendering =========== */
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
